@@ -1,0 +1,18 @@
+subjects = ["physics","calculus","poetry","history"]
+grades = [98,97,85,88]
+subjects.append("computer science")
+grades.append(100)
+subjects.append("visual arts")
+grades.append(93)
+grades[5] += 5
+grades.pop(2)
+grades.insert(2, "pass")
+gradebook = [[subjects[0],grades[0]],[subjects[1],grades[1]],[subjects[2],grades[2]],[subjects[3],grades[3]],[[subjects[4]],grades[4]],
+            [subjects[5],grades[5]]]
+
+print(gradebook)
+
+last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
+
+full_gradebook = last_semester_gradebook + gradebook
+print(full_gradebook)
